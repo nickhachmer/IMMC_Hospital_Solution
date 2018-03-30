@@ -12,4 +12,3 @@ def sigmoid(z):
 
     return s
 
-print(sigmoid([1,2,3,4,1,2,3]))
