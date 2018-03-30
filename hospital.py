@@ -1,9 +1,11 @@
-x = 'hello world'
-
-print(x)
 
 def mortality(evitable, inevitable):
-    num = evitable + inevitable
+    num = (1*evitable) + (0.1*inevitable)
     return num
 
-print(mortality(4,9))
+e = int(input('Type evitable '))
+i = int(input('Type inevitable '))
+
+print(mortality(e,i))
+
+
